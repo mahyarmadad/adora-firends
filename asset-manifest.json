@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.19a8b5c8.chunk.css",
-    "main.js": "/static/js/main.1853810b.chunk.js",
-    "main.js.map": "/static/js/main.1853810b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.55cabbd3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.55cabbd3.js.map",
-    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.a6dcb807.chunk.js": "/static/js/2.a6dcb807.chunk.js",
-    "static/js/2.a6dcb807.chunk.js.map": "/static/js/2.a6dcb807.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cff93893548baf8f5a6f4746fdaefa8f.js": "/precache-manifest.cff93893548baf8f5a6f4746fdaefa8f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.19a8b5c8.chunk.css.map": "/static/css/main.19a8b5c8.chunk.css.map",
-    "static/js/2.a6dcb807.chunk.js.LICENSE.txt": "/static/js/2.a6dcb807.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/Needlework Good.6666aa59.woff"
+    "main.css": "/adora-firends/static/css/main.a457e91a.chunk.css",
+    "main.js": "/adora-firends/static/js/main.6bb7b5f8.chunk.js",
+    "main.js.map": "/adora-firends/static/js/main.6bb7b5f8.chunk.js.map",
+    "runtime-main.js": "/adora-firends/static/js/runtime-main.6a44cf6d.js",
+    "runtime-main.js.map": "/adora-firends/static/js/runtime-main.6a44cf6d.js.map",
+    "static/css/2.69121389.chunk.css": "/adora-firends/static/css/2.69121389.chunk.css",
+    "static/js/2.a6dcb807.chunk.js": "/adora-firends/static/js/2.a6dcb807.chunk.js",
+    "static/js/2.a6dcb807.chunk.js.map": "/adora-firends/static/js/2.a6dcb807.chunk.js.map",
+    "index.html": "/adora-firends/index.html",
+    "precache-manifest.249987a12cf6ab0c0791ee652a074b27.js": "/adora-firends/precache-manifest.249987a12cf6ab0c0791ee652a074b27.js",
+    "service-worker.js": "/adora-firends/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/adora-firends/static/css/2.69121389.chunk.css.map",
+    "static/css/main.a457e91a.chunk.css.map": "/adora-firends/static/css/main.a457e91a.chunk.css.map",
+    "static/js/2.a6dcb807.chunk.js.LICENSE.txt": "/adora-firends/static/js/2.a6dcb807.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/adora-firends/static/media/Needlework Good.6666aa59.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.55cabbd3.js",
+    "static/js/runtime-main.6a44cf6d.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.a6dcb807.chunk.js",
-    "static/css/main.19a8b5c8.chunk.css",
-    "static/js/main.1853810b.chunk.js"
+    "static/css/main.a457e91a.chunk.css",
+    "static/js/main.6bb7b5f8.chunk.js"
   ]
 }
