@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 
-function search({ searchChange }) {
+function Search({ searchChange }) {
     return (
         <div>
             <Form className="mb-3 mr-3">
@@ -11,4 +11,4 @@ function search({ searchChange }) {
     );
 }
 
-export default search;
+export default Search;
