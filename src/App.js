@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Cardlist from './cardlist';
 import Search from './search';
-import Insert from './insert';
+import Insert from './Insert';
 
 function App() {
   const [searchtxt, setsearchtxt] = useState("");
@@ -11,13 +11,14 @@ function App() {
   function onSearchChange(event) {
     setsearchtxt(event.target.value);
   }
-  function oninsertChange() {
-
-  }
 
   fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
-    .then(user => { setusers(user) })
+    .then(user => { setusers(user) });
+
+  const addFriend = newfriend => {
+    console.log(newfriend);
+  }
 
   const filterfriend = users.filter(robot => {
     return robot.name.toLowerCase().includes(searchtxt.toLowerCase())
@@ -26,8 +27,8 @@ function App() {
     <div className="text-center container" >
       <h1 id="title">Adora Friends</h1>
       <div className="mt-4 text-center">
-        <Insert insertChange={oninsertChange} />
         <Search searchChange={onSearchChange} />
+        <Insert onaddFriend={addFriend} />
       </div>
       <div className="list">
         <Cardlist users={filterfriend} />
